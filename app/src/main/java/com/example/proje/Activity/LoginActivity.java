@@ -78,7 +78,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                     execute.execute();
                     mail.setText("");
                     password.setText("");
-                    //goToHomeActivity();
+                    goToHomeActivity();
                 }
                 break;
             case R.id.button:
